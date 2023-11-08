@@ -1,32 +1,73 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>SkibidiOS</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        text-align: center;
+      }
+
+      main {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        color: #007bff;
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 15px 0;
+      }
+
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
     <main>
-      <h1>SkibidiOS - a stupid joke project</h1>
+      <h1>SkibidiOS - a Stupid Joke Project</h1>
       <p>This webpage is currently a placeholder, I'll make an actual one later.</p>
-      <br>
+
       <a href="https://mega.nz/file/0HVxQYJI#NptTljEZQDUZI6yf-2IKDSPGYXNW_xqPLBx6E1GIHJQ">SkibidiOS 0.01 download link (mega.nz, 1.1GB download, 3GB decompressed)</a>
-      <br>
-      <p>The file is a raw QEMU .img, this can probably be flashed onto a USB stick, it's 3 gigabytes even though the install only takes up about 2 gigabytes, this is so that you can actually install things when trying out in QEMU.</p>
-      <p>Note that this is STILL UNFINISHED, I would release this later but decided to push out an early release.</p>
-      <p>"This sucks" Yes it does, it's a joke.</p>
-      <br><br>
+
+      <p>The file is a raw QEMU .img, which can probably be flashed onto a USB stick. It's 3 gigabytes, even though the install only takes up about 2 gigabytes. This is so that you can actually install things when trying out in QEMU.</p>
+
+      <p>Note that this is STILL UNFINISHED. I would release this later but decided to push out an early release.</p>
+
+      <p>"This sucks." Yes, it does, it's a joke.</p>
+
       <p>skibidwm keybinds: (will make this more readable later)</p>
-      <p>Win+Enter = open terminal emulator</p>
-      <p>Win+(Number) = switch to Nth workspace</p>
-      <p>Win+Q = close focused window</p>
-      <p>Win+G = hide top bar</p>
-      <p>Win+Shift+Q = end xorg session (go back to tty)</p>
-      <p>Win+J = focus left window</p>
-      <p>Win+K = focus right window</p>
-      <p>Win+H = resize focused window to left</p>
-      <p>Win+L = resize focused window to right</p>
-      <p>Win+F = zoom</p>
-      <p>Win+Space = spawn dmenu</p>
+      <ul>
+        <li>Win+Enter = open terminal emulator</li>
+        <li>Win+(Number) = switch to Nth workspace</li>
+        <li>Win+Q = close focused window</li>
+        <li>Win+G = hide top bar</li>
+        <li>Win+Shift+Q = end xorg session (go back to tty)</li>
+        <li>Win+J = focus left window</li>
+        <li>Win+K = focus right window</li>
+        <li>Win+H = resize focused window to the left</li>
+        <li>Win+L = resize focused window to the right</li>
+        <li>Win+F = zoom</li>
+        <li>Win+Space = spawn dmenu</li>
+      </ul>
+
       <p>// todo: add more later</p>
     </main>
   </body>
